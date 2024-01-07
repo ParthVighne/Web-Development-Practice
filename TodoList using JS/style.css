@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    /* border: 2px solid black; */
+}
+
+h2{
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    /* border: 2px solid black */
+}
+
+#input{
+    display: grid;
+    grid-template-columns:300px 300px 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    /* border: 2px solid red; */
+    margin: 5px auto;
+}
+
+#textBox{
+    margin: 5px;
+    padding: 3px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+    
+}
+
+#todoDate{
+    margin: 5px;
+    padding: 3px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#add-btn{
+    margin: 5px;
+    padding: 3px;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+    font-size: medium;
+}
+
+#add-btn:hover{
+    background-color: rgb(91, 225, 91);
+}
+
+#delete-btn{
+    margin: 5px;
+    padding: 3px;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(246, 48, 48);
+    color: black;
+    font-size: medium;
+}
+
+#delete-btn:hover{
+    background-color: rgb(159, 39, 39);
+}
+
+/* #edit-btn{
+     margin: 5px;
+    padding: 3px;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(199, 65, 248);
+    color: black;
+    font-size: medium;
+}
+
+#edit-btn:hover{
+    background-color: rgb(203, 114, 225);
+}
+
+#save-btn{
+    margin: 5px;
+    padding: 3px;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    font-size: medium;
+}
+
+#save-btn:hover{
+    background-color: rgb(94, 191, 230);
+} */
+
+.todo-container{
+    display: grid;
+    grid-template-columns:250px 250px 200px  ;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
