@@ -1,0 +1,11 @@
+*{
+    background-color: black;
+}
+.calculator{
+    background-color: white;
+    border: 2px solid rgb(117, 113, 113);
+    width: 270px;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 150px;
+}

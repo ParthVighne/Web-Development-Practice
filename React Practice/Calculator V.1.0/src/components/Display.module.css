@@ -1,0 +1,10 @@
+
+.display{
+    background-color: white;
+    border: 0.7px solid grey;
+    border-radius: 2px;
+    margin: 10px 20px;
+    width: 225px;
+    height: 40px;
+    font-size: 25px;
+}
