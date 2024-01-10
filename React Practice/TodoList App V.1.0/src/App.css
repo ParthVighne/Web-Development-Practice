@@ -1,0 +1,18 @@
+.container-fluid a{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+}
+
+input{
+    width: 100%;
+}
+
+.items-container{
+    text-align: left;
+}
+
+.row{
+    text-align: left;
+}
