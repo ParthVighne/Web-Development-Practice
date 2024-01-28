@@ -1,15 +1,11 @@
 /* eslint-disable react/prop-types */
-const WelcomeMessege = ({ onGetPostClick }) => {
+const WelcomeMessege = () => {
   return (
     <center className="welcome-messege">
       <h1>There are no posts</h1>
-      <button
-        type="button"
-        className="btn btn-primary"
-        onClick={onGetPostClick}
-      >
+      {/* <button type="button" className="btn btn-primary">
         Get Posts from Server
-      </button>
+      </button> */}
     </center>
   );
 };
